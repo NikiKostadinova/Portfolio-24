@@ -10,7 +10,11 @@ export default {
     flowbite.content(),
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        customPink: '#FF6A6E', // Define your custom color
+      },
+    },
   },
   plugins: [flowbite.plugin(),],
 }
